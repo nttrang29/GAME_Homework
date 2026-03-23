@@ -3,7 +3,7 @@
 public class DataManager : MonoBehaviour
 {
     public static DataManager instance;
-    public string playerName = "Vudun";
+    public string playerName = "ThuTrang";
     public int score = 0;
 
     void Awake()
