@@ -6,7 +6,7 @@ public class MenuManager : MonoBehaviour
     public void StartGame()
     {
         // Gán dữ liệu vào biến static trước khi chuyển scene
-        DataBridge.playerName = "Vudun_Developer";
+        DataBridge.playerName = "ThuTrang_Developer";
         DataBridge.selectedLevel = 5;
 
         Debug.Log("Đã lưu dữ liệu vào DataBridge. Đang chuyển Scene...");
